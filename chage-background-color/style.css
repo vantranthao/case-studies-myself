@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+#click-me {
+    background-color: chocolate;
+    color: wheat;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#click-me:hover {
+    font-size:20px ;
+}
+
+body {
+    color: turquoise;
+    background: wheat;
+}

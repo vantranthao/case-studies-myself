@@ -1,0 +1,34 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#click-me {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#click-me:hover {
+    font-size: 25px;
+    background-color: chocolate;
+}
+
+body {
+    background-color: bisque;
+}
+
+#show-me {
+    color: black;
+    font-size: 20px;
+}
+
+#show-off {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}

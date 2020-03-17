@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+</head>
+
+<body>
+    <div class="container-login" id="login-div">
+        <h1>Login form</h1>
+        <input type="text" placeholder="email" id="email_field">
+        <input type="text" placeholder="password" id="password_field">
+        <button onclick="login()">Login me</button>
+    </div>
+
+    <div class="container" id="user-div">
+        <h1>Logined div</h1>
+        <p>thank for login me</p>
+        <button>Log out</button>
+    </div>
+
+    <script src="index.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAbM3NZ94catOmglux_FcTnFX39uf1jBvU",
+            authDomain: "van-8a5a1.firebaseapp.com",
+            databaseURL: "https://van-8a5a1.firebaseio.com",
+            projectId: "van-8a5a1",
+            storageBucket: "van-8a5a1.appspot.com",
+            messagingSenderId: "448499767202",
+            appId: "1:448499767202:web:df87cec16a7cb8419844fb",
+            measurementId: "G-DM2Y6ZZBN6"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</body>
+
+</html>
